@@ -21,6 +21,15 @@ header {
     text-align: center;
 }
 
+article {
+    transition: background 0.2s ease;
+    
+}
+
+article:hover {
+    background: #9dc8e4;
+}
+
 .escaparate {
     display: flex;
     flex-direction: column;
@@ -62,6 +71,11 @@ header {
     border-radius: 8px;
     padding: 12px;
     min-height: 200px;
+    transition: background 0.2s ease;
+}
+
+.carrito:hover {
+    background-color: #9198e8;
 }
 
 .cartel {
