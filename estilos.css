@@ -3,7 +3,7 @@
 }
 
 :root{
-    --color-fondo: #f2f2f2;  
+    --color-fondo: #557ac53e;
     --color-producto: rgb(212, 234, 238);
     --color-carrito: #b3b9f2;
     --color-stock-bajo: red;
@@ -28,6 +28,7 @@ article {
 
 article:hover {
     background: #9dc8e4;
+    transform: scale(1.05);
 }
 
 .escaparate {
@@ -71,11 +72,12 @@ article:hover {
     border-radius: 8px;
     padding: 12px;
     min-height: 200px;
-    transition: background 0.2s ease;
+        transition: background 0.2s ease;
 }
 
 .carrito:hover {
     background-color: #9198e8;
+    transform: scale(1.05);
 }
 
 .cartel {
