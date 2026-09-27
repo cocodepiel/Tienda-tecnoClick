@@ -6,6 +6,8 @@
     --color-fondo: #f2f2f2;  
     --color-producto: rgb(212, 234, 238);
     --color-carrito: #b3b9f2;
+    --color-stock-bajo: red;
+    --color-cartel: rgb(255, 0, 0);
 }
 
 body {
@@ -60,4 +62,15 @@ header {
     border-radius: 8px;
     padding: 12px;
     min-height: 200px;
+}
+
+.cartel {
+    color: rgb(254, 254, 254);
+    background-color: rgb(255, 0, 0);
+    border: 3px solid rgb(255, 0, 0);
+}
+
+.stock-bajo{
+    border-color: var(--color-stock-bajo);
+    border-width: 5px;
 }
